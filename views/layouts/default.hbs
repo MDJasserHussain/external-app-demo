@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Team Cloud Saints Website</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+body{
+    background-color: linen;
+    text-align: center;
+    margin: auto;
+    /*background-image: url(https://lh3.googleusercontent.com/proxy/XlIwrQwnb8ZDQvWlXKfLWlxJygCa1EsV8WMj1ptrvxYyYvs08JAazPvjeP-Yaxm6lj8gM58Sxq83CUgMAaKsWKJtwyxUKW3SRGXJ3FePFo_3Legp6IuJJRWX0Fsna7YLCEso2_rGMib5QQ_ncpqVUndAWfSybM8z);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+.addevent{
+    text-align: center;
+    margin: auto;
+}
+.abcd{
+    padding: 50px;
+}
+.align{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+.submit-but{
+    margin-bottom:  50px;
+}
+</style>
+</head>
+<body>
+  <div class="container align">
+      <h1 class="h1">Welcome to Cloud Saints application</h1>
+    {{{body}}}
+</div>
+<hr></hr>
+<div class="container addevent">
+  <h2 class="h2 abcd">Have anything  in mind?? Post it..</h2>
+    <form class="align" action="/event" method="post">
+        <table class="align">
+       <tr><td>Title: </td><td><input name="title" type="text" /></td></tr>
+       <tr><td>Description: </td><td><input name="description" type="text" /></td></tr></table>
+       <br />
+       <br/>
+        <input class="btn btn-primary submit-but" type="submit" name="submit" value="submit" />
+        
+    </form>
+  </div>
+</body>
+</html>
